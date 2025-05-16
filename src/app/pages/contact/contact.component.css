@@ -1,6 +1,7 @@
 .contact-wrapper {
   display: flex;
   justify-content: center;
+   padding-top: 80px;
   padding: 60px 20px;
   background: #f0f4f8;
 }

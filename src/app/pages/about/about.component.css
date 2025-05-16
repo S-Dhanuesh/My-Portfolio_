@@ -1,17 +1,19 @@
 /* Container and Layout */
 .about-container {
+  padding-top: 80px; /* Prevent overlap with navbar */
   width: 100%;
-  max-width: none;
   min-height: 100vh;
-  padding: 60px 80px;
+   padding-top: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
   box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #222;
   background: linear-gradient(135deg, #e0e7ff 0%, #f9fafb 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 
 /* Header Section */
 .header {
